@@ -1,0 +1,1 @@
+export function toast(message,type="success"){let r=document.querySelector(".toast-region");if(!r){r=document.createElement("div");r.className="toast-region";document.body.appendChild(r)}const e=document.createElement("div");e.className=`toast ${type}`;e.textContent=message;r.appendChild(e);setTimeout(()=>e.remove(),2800)}

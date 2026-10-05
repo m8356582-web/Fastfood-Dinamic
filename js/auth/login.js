@@ -1,0 +1,1 @@
+import {signIn} from "./auth.js";import {toast} from "../components/toast.js";document.querySelector("[data-login]")?.addEventListener("submit",async e=>{e.preventDefault();try{await signIn(e.currentTarget.email.value,e.currentTarget.password.value);location.href="../index.html"}catch(x){toast(x.message||"ورود ناموفق بود.","error")}});
