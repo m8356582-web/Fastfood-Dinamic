@@ -1,7 +1,7 @@
 export const APP_CONFIG = {
-  name: "Nava Food",
+  name: "fastfood",
   currency: "تومان",
   locale: "fa-IR",
-  supabaseUrl: "",
-  supabaseAnonKey: ""
+  supabaseUrl: "https://rdcyktgbkbmtvumwkkai.supabase.co",
+  supabaseAnonKey: "YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY"
 };
